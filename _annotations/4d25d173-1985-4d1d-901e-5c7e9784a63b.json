@@ -1,0 +1,41 @@
+---
+canvas: "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0025444z/full/600,/0/default.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sky",
+            "purpose": "commenting",
+            "creator": {
+                "id": "heleix",
+                "name": "Patricia Ledesma Villon"
+            },
+            "created": "2021-08-19T16:27:55.434Z",
+            "modified": "2021-08-19T16:27:55.849Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Tag1",
+            "purpose": "tagging",
+            "creator": {
+                "id": "heleix",
+                "name": "Patricia Ledesma Villon"
+            },
+            "created": "2021-08-19T16:28:01.639Z",
+            "modified": "2021-08-19T16:28:02.343Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0025444z/full/600,/0/default.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:73.5045394897461,36.86872482299805,107.13594818115234,69.02719497680664"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/4d25d173-1985-4d1d-901e-5c7e9784a63b.json"
+}
