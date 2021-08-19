@@ -1,0 +1,9 @@
+---
+canvas_id: "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0025444z/full/600,/0/default.jpg"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"resources": [{{ annotations | join: ","}}] }
